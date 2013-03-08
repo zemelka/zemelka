@@ -1,0 +1,17 @@
+1. zasada dzia³ania ga³êzi : 
+¿e dziêki nim mo¿na pracowaæ nad oprogramowaniembez potrzeby „mieszania” w g³ównej linii rozwoju
+i bez czêstego cofania wprowadzonych zmian
+
+2. nazywa domyœlnej ga³êzi rozwoju w systemie git : master
+
+3. wskaŸnika HEAD : mówi nam , na jakiej ga³êzi "siedzimy"
+
+4. wypisz polecenia git zwi¹zane z ga³êziami i prac¹ na nich :
+    git branch test - tworzenie nowej ga³êzi  (nie przeskakuje na ga³¹Ÿ)
+    git checkout test - przeskakiwanie na ga³¹Ÿ
+    git merge foo - scalanie swojej ga³êzi z g³ówn¹
+    git branch -v - Wyœwietla listê ga³êzi wraz z commitami
+    git branch - Wyœwietla listê ga³êzi(* oznacza bie¿¹c¹)
+    git branch --merged - Wyœwietla listê scalonych ga³êzi (dostêpny jest te¿ prze³¹cznik --no-merged)
+    git branch -d foo - usuwanie ga³êzi
+    
